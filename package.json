@@ -1,0 +1,40 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cloudscape-design/board-components": "^3.0.81",
+    "@cloudscape-design/collection-hooks": "^1.0.55",
+    "@cloudscape-design/component-toolkit": "^1.0.0-beta.75",
+    "@cloudscape-design/components": "^3.0.793",
+    "@cloudscape-design/design-tokens": "^3.0.45",
+    "@cloudscape-design/global-styles": "^1.0.32",
+    "@cloudscape-design/test-utils-core": "^1.0.44",
+    "@cloudscape-design/theming-runtime": "^1.0.63",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-toastify": "^10.0.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.9"
+  }
+}
